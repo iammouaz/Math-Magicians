@@ -1,0 +1,35 @@
+body {
+  background-color: dimgray;
+}
+
+.Calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: lightgray;
+  width: 50%;
+  text-align: center;
+  margin-left: 23%;
+}
+
+.input {
+  grid-column: 1 / 5;
+  background-color: darkgrey;
+  height: 40px;
+  width: 99%;
+  color: white;
+  text-align: right;
+}
+
+.num {
+  height: 50px;
+  width: 100%;
+  border: darkgrey solid 1px;
+}
+
+.math {
+  background-color: darkorange;
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
