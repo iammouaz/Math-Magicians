@@ -1,33 +1,38 @@
-/* eslint-disable react/destructuring-assignment */
-const Calc = (int) => (
-  <div className={int.class}>
-    {int.number}
-  </div>
-);
+import React, { Component } from 'react';
 
-const App = () => (
-  <div className="Calculator">
-    <input className="input" value="0" />
-    <Calc class="num" number="AC" />
-    <Calc class="num" number="+/-" />
-    <Calc class="num" number="%" />
-    <Calc class="num math" number="÷" />
-    <Calc class="num" number="7" />
-    <Calc class="num" number="8" />
-    <Calc class="num" number="9" />
-    <Calc class="num math" number="×" />
-    <Calc class="num" number="4" />
-    <Calc class="num" number="5" />
-    <Calc class="num" number="6" />
-    <Calc class="num math" number="-" />
-    <Calc class="num" number="1" />
-    <Calc class="num" number="2" />
-    <Calc class="num" number="3" />
-    <Calc class="num math" number="+" />
-    <Calc class="num zero" number="0" />
-    <Calc class="num" number="." />
-    <Calc class="num math" number="=" />
-  </div>
-);
+class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-export default App;
+  render() {
+    return (
+      <div className="Calculator">
+        <input className="input" value="0" />
+        <button type="submit" className="num">AC</button>
+        <button type="submit" className="num">+/-</button>
+        <button type="submit" className="num">%</button>
+        <button type="submit" className="num math">÷</button>
+        <button type="submit" className="num">7</button>
+        <button type="submit" className="num">8</button>
+        <button type="submit" className="num">9</button>
+        <button type="submit" className="num math">×</button>
+        <button type="submit" className="num">4</button>
+        <button type="submit" className="num">5</button>
+        <button type="submit" className="num">6</button>
+        <button type="submit" className="num math">-</button>
+        <button type="submit" className="num">1</button>
+        <button type="submit" className="num">2</button>
+        <button type="submit" className="num">3</button>
+        <button type="submit" className="num math">+</button>
+        <button type="submit" className="num zero">0</button>
+        <button type="submit" className="num">.</button>
+        <button type="submit" className="num math">=</button>
+      </div>
+
+    );
+  }
+}
+
+export default Calculator;
