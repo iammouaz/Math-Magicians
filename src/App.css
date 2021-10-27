@@ -15,9 +15,12 @@ body {
   grid-column: 1 / 5;
   background-color: darkgrey;
   height: 40px;
-  width: 99%;
+  width: 100%;
   color: white;
   text-align: right;
+  size: 100px;
+  font-size: 29px;
+  margin-right: 5px;
 }
 
 .num {
@@ -33,3 +36,4 @@ body {
 .zero {
   grid-column: 1 / 3;
 }
+
