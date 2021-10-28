@@ -2,6 +2,15 @@ body {
   background-color: dimgray;
 }
 
+button {
+  font-size: 17px;
+  font-family: cursive;
+}
+
+button:active {
+  background-color: grey;
+}
+
 .Calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -20,6 +29,8 @@ body {
   text-align: right;
   font-size: 29px;
   margin-right: 5px;
+  font-weight: bold;
+  font-family: cursive;
 }
 
 .num {
