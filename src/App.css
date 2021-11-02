@@ -5,16 +5,15 @@
 }
 
 body {
-  font-family: 'Lobster', cursive;  line-height: 1.4;
+  font-family: 'Lobster', cursive;
+  line-height: 1.4;
   color: #444;
-  height: 10  0vh;
 }
 
-.App{
+.App {
   background-color: #455073;
   height: 100vh;
 }
-
 
 button {
   font-size: 17px;
@@ -63,46 +62,46 @@ button:active {
   padding-right: 5%;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   padding-top: 2%;
   background-color: #6077c0;
 }
 
-.nabar{
+.nabar {
   list-style: none;
-    gap: 23px;
-    display: flex;
-    margin-left: -25%;
+  gap: 23px;
+  display: flex;
+  margin-left: -25%;
 }
 
-.Calc{
+.Calc {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10%;
 }
 
-.Lets{
+.Lets {
   align-self: flex-start;
 }
 
-.do{
+.do {
   color: #c0904d;
   font-family: cursive;
   font-size: xx-large;
 }
 
-.sitename{
+.sitename {
   color: #c0904d;
- font-size: 60px;
- position: relative;  
- left: 10%;
- bottom: 10%;
+  font-size: 60px;
+  position: relative;
+  left: 10%;
+  bottom: 10%;
 }
 
-.list-item{
+.list-item {
   font-size: 40px;
   text-decoration: none;
 }
@@ -115,16 +114,16 @@ button:active {
   padding-top: 15%;
 }
 
-.welcome{
+.welcome {
   color: wheat;
   font-size: 38px;
   text-align: center;
   padding-top: 15%;
 }
 
-.this{
-    font-family: cursive;
+.this {
+  font-family: cursive;
   text-align: center;
   font-size: 31px;
-  color: #c0904d; 
+  color: #c0904d;
 }
