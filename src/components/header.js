@@ -5,7 +5,7 @@ const Header = () => (
   <div data-testid="NavMenu">
     <nav className="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
       <div className="container-fluid">
-        <Link className="navbar-brand header" to="/">Math Magicians</Link>
+        <Link className="navbar-brand" to="/">Math Magicians</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
