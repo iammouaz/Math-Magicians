@@ -20,29 +20,33 @@ const Calculator = () => {
   };
 
   return (
-    <div className="Calculator">
-      <span className="input"><span className="number">{Display() || 0 }</span></span>
-      <button onClick={Calculate} type="button" value="AC" className="num">AC</button>
-      <button onClick={Calculate} type="button" value="+/-" className="num">+/-</button>
-      <button onClick={Calculate} type="button" value="%" className="num">%</button>
-      <button onClick={Calculate} type="button" value="÷" className="num math">÷</button>
-      <button onClick={Calculate} type="button" value="7" className="num">7</button>
-      <button onClick={Calculate} type="button" value="8" className="num">8</button>
-      <button onClick={Calculate} type="button" value="9" className="num">9</button>
-      <button onClick={Calculate} type="button" value="x" className="num math">×</button>
-      <button onClick={Calculate} type="button" value="4" className="num">4</button>
-      <button onClick={Calculate} type="button" value="5" className="num">5</button>
-      <button onClick={Calculate} type="button" value="6" className="num">6</button>
-      <button onClick={Calculate} type="button" value="-" className="num math">-</button>
-      <button onClick={Calculate} type="button" value="1" className="num">1</button>
-      <button onClick={Calculate} type="button" value="2" className="num">2</button>
-      <button onClick={Calculate} type="button" value="3" className="num">3</button>
-      <button onClick={Calculate} type="button" value="+" className="num math">+</button>
-      <button onClick={Calculate} type="button" value="0" className="num zero">0</button>
-      <button onClick={Calculate} type="button" value="." className="num">.</button>
-      <button onClick={Calculate} type="button" value="=" className="num math">=</button>
-    </div>
-
+    <section className="Calc">
+      <div className="Lets">
+        <h2 className="do">Lets Do Some Math!</h2>
+      </div>
+      <div className="Calculator">
+        <span className="input"><span className="number">{Display() || 0 }</span></span>
+        <button onClick={Calculate} type="button" value="AC" className="num">AC</button>
+        <button onClick={Calculate} type="button" value="+/-" className="num">+/-</button>
+        <button onClick={Calculate} type="button" value="%" className="num">%</button>
+        <button onClick={Calculate} type="button" value="÷" className="num math">÷</button>
+        <button onClick={Calculate} type="button" value="7" className="num">7</button>
+        <button onClick={Calculate} type="button" value="8" className="num">8</button>
+        <button onClick={Calculate} type="button" value="9" className="num">9</button>
+        <button onClick={Calculate} type="button" value="x" className="num math">×</button>
+        <button onClick={Calculate} type="button" value="4" className="num">4</button>
+        <button onClick={Calculate} type="button" value="5" className="num">5</button>
+        <button onClick={Calculate} type="button" value="6" className="num">6</button>
+        <button onClick={Calculate} type="button" value="-" className="num math">-</button>
+        <button onClick={Calculate} type="button" value="1" className="num">1</button>
+        <button onClick={Calculate} type="button" value="2" className="num">2</button>
+        <button onClick={Calculate} type="button" value="3" className="num">3</button>
+        <button onClick={Calculate} type="button" value="+" className="num math">+</button>
+        <button onClick={Calculate} type="button" value="0" className="num zero">0</button>
+        <button onClick={Calculate} type="button" value="." className="num">.</button>
+        <button onClick={Calculate} type="button" value="=" className="num math">=</button>
+      </div>
+    </section>
   );
 };
 

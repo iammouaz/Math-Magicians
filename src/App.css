@@ -1,10 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: dimgray;
+  font-family: 'Lobster', cursive;
+  line-height: 1.4;
+  color: #444;
+}
+
+.App {
+  background-color: #455073;
+  height: 100vh;
 }
 
 button {
   font-size: 17px;
-  font-family: cursive;
 }
 
 button:active {
@@ -14,8 +26,8 @@ button:active {
 .Calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: lightgray;
-  width: 50%;
+  background-color: #143d59;
+  width: 35%;
   text-align: center;
   margin-left: 23%;
 }
@@ -30,7 +42,6 @@ button:active {
   font-size: 29px;
   margin-right: 5px;
   font-weight: bold;
-  font-family: cursive;
 }
 
 .num {
@@ -49,4 +60,70 @@ button:active {
 
 .number {
   padding-right: 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  background-color: #6077c0;
+}
+
+.nabar {
+  list-style: none;
+  gap: 23px;
+  display: flex;
+  margin-left: -25%;
+}
+
+.Calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.Lets {
+  align-self: flex-start;
+}
+
+.do {
+  color: #c0904d;
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+.sitename {
+  color: #c0904d;
+  font-size: 60px;
+  position: relative;
+  left: 10%;
+  bottom: 10%;
+}
+
+.list-item {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.quote {
+  font-family: cursive;
+  color: wheat;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.welcome {
+  color: wheat;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.this {
+  font-family: cursive;
+  text-align: center;
+  font-size: 31px;
+  color: #c0904d;
 }
