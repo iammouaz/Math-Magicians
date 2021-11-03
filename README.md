@@ -22,7 +22,7 @@ This application is built using React and Bootstrap.
 ## Live Demo
 
 
-- Netlify: [Live Demo Link](https://618296d7d88a00ec2d3794e4--elated-mccarthy-57a100.netlify.app/)
+- Netlify: [Live Demo Link](https://618297ed846a1b00085a858b--elated-mccarthy-57a100.netlify.app/)
 
 ## Getting Started
 
