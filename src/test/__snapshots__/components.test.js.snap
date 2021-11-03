@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components Matches Test Calculator Components Matches 1`] = `
+<section
+  className="Calc"
+>
+  <div
+    className="Lets"
+  >
+    <h2
+      className="do"
+    >
+      Lets Do Some Math!
+    </h2>
+  </div>
+  <div
+    className="Calculator"
+  >
+    <span
+      className="input"
+    >
+      <span
+        className="number"
+      >
+        0
+      </span>
+    </span>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="AC"
+    >
+      AC
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="+/-"
+    >
+      +/-
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="%"
+    >
+      %
+    </button>
+    <button
+      className="num math"
+      onClick={[Function]}
+      type="button"
+      value="÷"
+    >
+      ÷
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="7"
+    >
+      7
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="9"
+    >
+      9
+    </button>
+    <button
+      className="num math"
+      onClick={[Function]}
+      type="button"
+      value="x"
+    >
+      ×
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="4"
+    >
+      4
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="5"
+    >
+      5
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="6"
+    >
+      6
+    </button>
+    <button
+      className="num math"
+      onClick={[Function]}
+      type="button"
+      value="-"
+    >
+      -
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="1"
+    >
+      1
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="2"
+    >
+      2
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="3"
+    >
+      3
+    </button>
+    <button
+      className="num math"
+      onClick={[Function]}
+      type="button"
+      value="+"
+    >
+      +
+    </button>
+    <button
+      className="num zero"
+      onClick={[Function]}
+      type="button"
+      value="0"
+    >
+      0
+    </button>
+    <button
+      className="num"
+      onClick={[Function]}
+      type="button"
+      value="."
+    >
+      .
+    </button>
+    <button
+      className="num math"
+      onClick={[Function]}
+      type="button"
+      value="="
+    >
+      =
+    </button>
+  </div>
+</section>
+`;
+
+exports[`Components Matches Test Home Components Matches 1`] = `
+<div
+  className="homepage"
+>
+  <h2
+    className="welcome"
+  >
+    Welcome to Home Page
+  </h2>
+  <p
+    className="this"
+  >
+    This is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and to read a random math-related quote. Built using React and Bootstrap. 
+  </p>
+</div>
+`;
+
+exports[`Components Matches Test quote Components Matches 1`] = `
+<div>
+  <h3
+    className="quote"
+  >
+    Mathematics is not about numbers, equations, computations, or algorithms it is about understandings. -William Paul Thurston
+  </h3>
+</div>
+`;
