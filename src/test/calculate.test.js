@@ -37,4 +37,43 @@ describe('Calculate tests', () => {
       { next: '0.' },
     );
   });
+  it('percentage key test 4', () => {
+    expect(calculate({ total: '5.1', next: null, operation: null }, '.')).toEqual(
+      {},
+    );
+  });
+  it('percentage key test 5', () => {
+    expect(calculate({ total: null, next: null, operation: null }, '.')).toEqual(
+      { total: '0.' },
+    );
+  });
+  it('Equal Key Test Case 1', () => {
+    expect(calculate({ total: null, next: '0', operation: null }, '=')).toEqual(
+      {},
+    );
+  });
+  it('Equal Key Test Case 2', () => {
+    expect(calculate({ total: null, next: null, operation: null }, '=')).toEqual(
+      {},
+    );
+  });
+  it('User pressed an operation after pressing = Test', () => {
+    expect(calculate({ total: '10', next: null, operation: null }, '+')).toEqual(
+      { total: '10', next: null, operation: '+' },
+    );
+  });
+  it('The user hasnt typed a number yet, just save the operation Test', () => {
+    expect(calculate({ total: null, next: null, operation: null }, '+')).toEqual(
+      { operation: '+' },
+    );
+  });
+  it('save the operation and shift next into total', () => {
+    expect(calculate({ total: null, next: '9', operation: null }, '+')).toEqual(
+      {
+        total: '9',
+        next: null,
+        operation: '+',
+      },
+    );
+  });
 });
